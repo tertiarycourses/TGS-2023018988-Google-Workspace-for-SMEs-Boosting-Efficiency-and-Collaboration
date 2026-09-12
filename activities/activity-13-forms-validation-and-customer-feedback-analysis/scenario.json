@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 13,
+  "scenario": "A feedback survey contains satisfaction ratings outside 1\u20135 and missing responses. Validate inputs and interpret the sample without turning a small survey into a population claim.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "rating",
+      "Integer 1..5",
+      "Reject out-of-range input"
+    ],
+    [
+      "issue_category",
+      "Delivery / Product / Website",
+      "Controlled choices"
+    ],
+    [
+      "response_id",
+      "F001..F010",
+      "Unique synthetic record"
+    ],
+    [
+      "mean_rating",
+      "=AVERAGE(B2:B11)",
+      "36/10 =3.6"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "N",
+      "Valid sample",
+      "10"
+    ],
+    [
+      "MEAN",
+      "Rating",
+      "3.6/5"
+    ],
+    [
+      "POSITIVE",
+      "Rating 4 or 5",
+      "6/10 =60%"
+    ],
+    [
+      "ACTION",
+      "Website issue",
+      "Navigation test defined"
+    ]
+  ]
+}

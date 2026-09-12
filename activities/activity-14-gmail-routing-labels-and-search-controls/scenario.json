@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 14,
+  "scenario": "Sales loses customer enquiries among newsletters. Route only matching messages to a label and verify that a reply is treated according to its own criteria.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Search",
+      "subject:(HHS enquiry)",
+      "Test matching messages first"
+    ],
+    [
+      "Action",
+      "Apply label Enquiries",
+      "Label need not archive message"
+    ],
+    [
+      "Existing messages",
+      "Apply filter to matching conversations",
+      "Choose explicitly"
+    ],
+    [
+      "Reply behaviour",
+      "Criteria checked on message",
+      "Replies need their own match"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "MATCH",
+      "M01/M03",
+      "Enquiries label present"
+    ],
+    [
+      "NEGATIVE",
+      "M02/M04",
+      "Label absent"
+    ],
+    [
+      "RULE",
+      "Filter action",
+      "No forwarding or delete"
+    ],
+    [
+      "CLEANUP",
+      "Training rule",
+      "Removed after evidence"
+    ]
+  ]
+}

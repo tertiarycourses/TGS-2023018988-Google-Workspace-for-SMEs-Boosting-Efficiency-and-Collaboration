@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 21,
+  "scenario": "An SME choosing between Google Sites, WordPress and SharePoint needs a documented content-management decision, including audience, editing workflow, integrations and operational ownership.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Criteria weights",
+      "Ease 30, Public 25, Governance 25, Extension 20",
+      "Sum 100 in scenario"
+    ],
+    [
+      "Score scale",
+      "1..5",
+      "Learner analysis, not vendor benchmark"
+    ],
+    [
+      "Google Sites",
+      "Simple team/site authoring",
+      "Assess against required workflow"
+    ],
+    [
+      "Other offerings",
+      "WordPress / SharePoint",
+      "Verify roles and deployment context"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "WEIGHTS",
+      "Matrix",
+      "30+25+25+20=100"
+    ],
+    [
+      "MATH",
+      "Sites score",
+      "3.65"
+    ],
+    [
+      "SOURCES",
+      "Offerings",
+      "Official links/date documented"
+    ],
+    [
+      "GATE",
+      "Must-have",
+      "Failure excludes unsuitable option"
+    ]
+  ]
+}

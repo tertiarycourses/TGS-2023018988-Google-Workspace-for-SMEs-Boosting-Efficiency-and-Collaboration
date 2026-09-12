@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"N","Valid sample","10","",""
+"MEAN","Rating","3.6/5","",""
+"POSITIVE","Rating 4 or 5","6/10 =60%","",""
+"ACTION","Website issue","Navigation test defined","",""

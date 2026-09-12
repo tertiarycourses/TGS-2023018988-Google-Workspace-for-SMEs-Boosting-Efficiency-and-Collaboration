@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"FIND","DELIVERY-01","Correct location and identifier","",""
+"HISTORY","Dispatch v 2","Approved checkpoint identified","",""
+"RECOVER","Current text","Address check restored","",""
+"ACCESS","Intended viewer","Known URL opens","",""

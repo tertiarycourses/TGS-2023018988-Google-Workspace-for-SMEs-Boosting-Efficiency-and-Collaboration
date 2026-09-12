@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 6,
+  "scenario": "A delivery policy is hard to navigate and reviewers overwrite each other. Build a structured document and distinguish proposed edits from accepted content.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Heading styles",
+      "Heading 1 / Heading 2",
+      "Structure supports outline and navigation"
+    ],
+    [
+      "Mode",
+      "Suggesting",
+      "Proposal does not replace accepted text yet"
+    ],
+    [
+      "Comment",
+      "specific selection + issue",
+      "Resolve after decision"
+    ],
+    [
+      "Version",
+      "Approved delivery policy",
+      "Auditable release checkpoint"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "STRUCT",
+      "Outline",
+      "Two Heading 1 sections visible"
+    ],
+    [
+      "REVIEW",
+      "Suggestion",
+      "14-day proposal recorded"
+    ],
+    [
+      "DECISION",
+      "Accepted text",
+      "Verified terms reflected"
+    ],
+    [
+      "RELEASE",
+      "Named version",
+      "DP-01 v 2 approved"
+    ]
+  ]
+}

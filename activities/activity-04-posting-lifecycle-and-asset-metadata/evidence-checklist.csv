@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"META","P-101","ID, owner, status, due date populated","",""
+"RELEASE","v 2","Price SGD 49 and approval note","",""
+"URL","Published copy","Current intended audience","",""
+"OLD","v 1 reference","No longer used in current index","",""

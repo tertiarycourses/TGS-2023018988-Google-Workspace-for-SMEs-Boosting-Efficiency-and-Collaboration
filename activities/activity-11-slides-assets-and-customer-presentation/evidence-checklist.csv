@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"PRICE","Customer slide","SGD 29","",""
+"CHART","Stages","4/3/3/2 with synthetic label","",""
+"PRIVATE","Notes/comments","No internal cost values","",""
+"VIEW","PDF/viewer","Readable and accessible","",""

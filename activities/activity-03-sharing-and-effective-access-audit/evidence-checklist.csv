@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"ACL-BEFORE","Agency","Opens through broader grant","",""
+"ACL-AFTER","Agency","Denied after full correction","",""
+"FIN-ALLOW","Finance tester","Can read expected file","",""
+"REVIEW","Owner","Signs effective-access register","",""

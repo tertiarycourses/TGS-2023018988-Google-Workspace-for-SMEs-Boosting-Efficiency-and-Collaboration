@@ -1,0 +1,5 @@
+message_id,subject,expected_match
+M01,HHS enquiry storage,yes
+M02,Newsletter September,no
+M03,HHS enquiry lamp,yes
+M04,Delivery update,no

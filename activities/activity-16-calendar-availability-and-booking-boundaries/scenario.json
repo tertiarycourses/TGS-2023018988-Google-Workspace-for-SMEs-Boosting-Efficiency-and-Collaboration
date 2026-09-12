@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 16,
+  "scenario": "Sales offers consultations to Singapore customers while a partner works in another time zone. An availability link should show bookable slots without exposing private event details.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Time zone",
+      "Asia/Singapore UTC+8",
+      "Label exported meeting times"
+    ],
+    [
+      "Duration",
+      "30 minutes",
+      "Defined consultation slot"
+    ],
+    [
+      "Availability",
+      "10:00\u201312:00 weekdays",
+      "Business policy for this scenario"
+    ],
+    [
+      "Sharing level",
+      "Free/busy where appropriate",
+      "Separate from full event details"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "TIME",
+      "10:00 +08:00",
+      "02:00 UTC same instant"
+    ],
+    [
+      "BUSY",
+      "10:30\u201311:00",
+      "Excluded where configured"
+    ],
+    [
+      "PRIVACY",
+      "Viewer",
+      "No private titles"
+    ],
+    [
+      "BOOK",
+      "Training slot",
+      "One booking creates expected event"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"SITE","Published URL","Current facts visible","",""
+"FILE","Embed","Viewer opens brochure","",""
+"FORM","Responder","Synthetic submission succeeds","",""
+"PRIVATE","Response sheet","Uninvited visitor denied","",""

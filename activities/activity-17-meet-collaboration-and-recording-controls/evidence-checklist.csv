@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"INVITE","Participants","Intended training audience","",""
+"SHARE","Visible content","Approved product tab","",""
+"DECISION","Brochure","Approval and rationale recorded","",""
+"ACTION","Marketing lead","Due 2026-09-16; Open","",""

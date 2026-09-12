@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 2,
+  "scenario": "A product catalogue must remain with Harbour Home Supplies when its editor leaves. A working draft currently sits in an individual My Drive folder. Decide where the source of record should live.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "My Drive owner",
+      "Individual account",
+      "Lifecycle includes ownership handover"
+    ],
+    [
+      "Shared drive owner",
+      "Organisation",
+      "Files remain when a member leaves"
+    ],
+    [
+      "Shared drive role",
+      "Manager / Content Manager / Contributor",
+      "Use least privilege"
+    ],
+    [
+      "Folder exception",
+      "Limited access",
+      "Available to authorised managers"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "OWN-001",
+      "CAT-001 location",
+      "Shared drive or documented fallback"
+    ],
+    [
+      "ROLE-001",
+      "Editor identity",
+      "Contributor, not Manager"
+    ],
+    [
+      "EXIT-001",
+      "Member removed",
+      "Organisation source remains"
+    ],
+    [
+      "VIEW-001",
+      "Agency identity",
+      "Only approved asset available"
+    ]
+  ]
+}

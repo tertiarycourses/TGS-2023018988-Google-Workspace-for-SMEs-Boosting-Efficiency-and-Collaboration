@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 7,
+  "scenario": "Sales reuses a brochure containing an old address and an internal cost figure. Apply a publication checklist to a controlled template before export.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Template fields",
+      "product, price, contact, version",
+      "No unreplaced placeholders"
+    ],
+    [
+      "Internal fields",
+      "unit_cost",
+      "Exclude from public copy"
+    ],
+    [
+      "Link text",
+      "View delivery terms",
+      "Descriptive purpose"
+    ],
+    [
+      "Image text",
+      "Alternative text",
+      "Meaningful description where appropriate"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "FACT",
+      "Price",
+      "SGD 29 matches approved product record"
+    ],
+    [
+      "LEAK",
+      "unit_cost",
+      "Absent from public export"
+    ],
+    [
+      "LINK",
+      "Delivery terms",
+      "Intended viewer can open"
+    ],
+    [
+      "PDF",
+      "Release copy",
+      "Current version and readable layout"
+    ]
+  ]
+}

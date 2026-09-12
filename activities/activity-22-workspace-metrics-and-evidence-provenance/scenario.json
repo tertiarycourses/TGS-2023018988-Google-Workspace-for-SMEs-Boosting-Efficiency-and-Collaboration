@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 22,
+  "scenario": "The original practical assessment requests document access frequency, collaboration rate and engagement. Report defined measures from labelled synthetic events without claiming unavailable tenant telemetry.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "View events",
+      "action=view per document",
+      "Event count is not unique visitors"
+    ],
+    [
+      "Unique viewers",
+      "distinct actor_id for views",
+      "Synthetic stable identifiers"
+    ],
+    [
+      "Collaboration rate",
+      "docs with>=2 editors / edited docs",
+      "Defined business measure"
+    ],
+    [
+      "Data provenance",
+      "Synthetic mock / live admin report",
+      "State source and availability"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "VIEWS",
+      "DOC01..04",
+      "24+18+12+6=60"
+    ],
+    [
+      "EDITORS",
+      "DOC01..04",
+      "3,2,1,1"
+    ],
+    [
+      "COLLAB",
+      ">=2 editors",
+      "2/4=50%"
+    ],
+    [
+      "SOURCE",
+      "Report",
+      "Synthetic explicitly stated"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"FACT","Price","SGD 29 matches approved product record","",""
+"LEAK","unit_cost","Absent from public export","",""
+"LINK","Delivery terms","Intended viewer can open","",""
+"PDF","Release copy","Current version and readable layout","",""

@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 23,
+  "scenario": "Marketing wants three customer-experience improvements. Use a synthetic visitor funnel and test definitions rather than asserting website analytics is automatically available from Drive.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Product reach",
+      "600/1000",
+      "60% of landing cohort"
+    ],
+    [
+      "Start rate",
+      "120/600",
+      "20% of product cohort"
+    ],
+    [
+      "Completion rate",
+      "72/120",
+      "60% of starters"
+    ],
+    [
+      "Visitor conversion",
+      "72/1000",
+      "7.2% of landing cohort"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "FUNNEL",
+      "Stages",
+      "1000/600/120/72"
+    ],
+    [
+      "MATH",
+      "Conversion",
+      "7.2% landing cohort"
+    ],
+    [
+      "IDEA1",
+      "Navigation",
+      "Product reach target>=70%"
+    ],
+    [
+      "IDEA2/3",
+      "Form/booking",
+      "Completion>=75%; availability test"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+Won enquiries:E003SGD360,E004SGD180,E008SGD420. Total960;3/12=25%;960/3=320. All pipeline2820.

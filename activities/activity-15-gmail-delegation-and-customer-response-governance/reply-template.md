@@ -1,0 +1,1 @@
+Dear {{NAME}}, thank you for your enquiry about {{PRODUCT}}. The approved price is {{PRICE}}. Standard delivery isSGD5 belowSGD80; approved return window14days. Please see{{DELIVERY_LINK}}. Regards,HHS Sales Training.

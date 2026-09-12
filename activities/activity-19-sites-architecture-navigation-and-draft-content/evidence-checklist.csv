@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"MAP","Four pages","Task labels consistent","",""
+"FACT","Delivery","SGD 5 / threshold SGD 80","",""
+"EMBED","Brochure","Intended viewer access","",""
+"TASK","Delivery terms","Located within 2 clicks","",""

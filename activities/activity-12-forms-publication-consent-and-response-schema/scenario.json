@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 12,
+  "scenario": "Harbour Home Supplies needs a customer enquiry form. Its responder audience, email collection and response visibility are independent choices with privacy consequences.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Question fields",
+      "name, email, product, consent",
+      "Collect minimum relevant data"
+    ],
+    [
+      "Collect email",
+      "Verified or responder input",
+      "Choose deliberately and disclose"
+    ],
+    [
+      "Limit 1 response",
+      "Google sign-in required",
+      "Not suitable for all anonymous visitors"
+    ],
+    [
+      "Summary visibility",
+      "View results summary",
+      "May reveal full text to responders"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "PUB",
+      "Responder URL",
+      "Published training form opens"
+    ],
+    [
+      "CONSENT",
+      "Test response",
+      "Required contact permission"
+    ],
+    [
+      "SUMMARY",
+      "Responder view",
+      "No private response summary"
+    ],
+    [
+      "SHEET",
+      "Response spreadsheet",
+      "Staff-only Restricted"
+    ]
+  ]
+}

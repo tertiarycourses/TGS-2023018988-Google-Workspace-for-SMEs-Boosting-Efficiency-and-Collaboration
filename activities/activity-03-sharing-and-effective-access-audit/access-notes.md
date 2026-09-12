@@ -1,0 +1,1 @@
+The records describe a deliberately faulty synthetic configuration. Removing a direct grant is insufficient when other group, parent or general access paths remain. Practise only in newly created training folders.

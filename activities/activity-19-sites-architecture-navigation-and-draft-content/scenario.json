@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 19,
+  "scenario": "Customers cannot find delivery terms or the enquiry form on the SME site. Design a small information architecture around actual customer tasks and independent source assets.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Page hierarchy",
+      "Home, Products, Delivery, Contact",
+      "Consistent task-based labels"
+    ],
+    [
+      "Primary action",
+      "Product enquiry",
+      "One visible destination"
+    ],
+    [
+      "Draft",
+      "Unpublished changes",
+      "Review before publishing"
+    ],
+    [
+      "Embedded asset",
+      "Approved brochure PDF",
+      "Viewer ACL checked separately"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "MAP",
+      "Four pages",
+      "Task labels consistent"
+    ],
+    [
+      "FACT",
+      "Delivery",
+      "SGD 5 / threshold SGD 80"
+    ],
+    [
+      "EMBED",
+      "Brochure",
+      "Intended viewer access"
+    ],
+    [
+      "TASK",
+      "Delivery terms",
+      "Located within 2 clicks"
+    ]
+  ]
+}

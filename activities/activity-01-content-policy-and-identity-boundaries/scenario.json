@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 1,
+  "scenario": "Harbour Home Supplies is a fictional Singapore SME with Sales, Operations and Finance teams. Its migration contains supplier invoices, customer enquiries and public product sheets. An external agency needs only approved marketing assets.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Classification",
+      "Internal / Confidential / Public",
+      "Policy field, not automatic enforcement"
+    ],
+    [
+      "Owner",
+      "Finance lead",
+      "Accountable for review"
+    ],
+    [
+      "General access",
+      "Restricted",
+      "Default for internal records"
+    ],
+    [
+      "Review date",
+      "2026-10-01",
+      "Monthly permission review"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "POL-001",
+      "Policy approved",
+      "Named owner and monthly review"
+    ],
+    [
+      "ACL-001",
+      "Internal folder",
+      "Restricted; staff group only"
+    ],
+    [
+      "TEST-001",
+      "Agency account",
+      "Invoice access denied"
+    ],
+    [
+      "EXC-001",
+      "Agency product draft",
+      "Commenter; approval recorded"
+    ]
+  ]
+}

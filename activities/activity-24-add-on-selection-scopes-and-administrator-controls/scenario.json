@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 24,
+  "scenario": "An add-on promises PDF merge and customer follow-up, but requests broad file and mail access. Recommend a suitable extension only after fit, permissions, data handling and exit checks.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Functional fit",
+      "Merge approved PDFs",
+      "Requirement-specific evidence"
+    ],
+    [
+      "Requested access",
+      "Files / mail as declared",
+      "Review actual consent wording"
+    ],
+    [
+      "Admin status",
+      "Allowed / blocked / limited",
+      "Policy can prevent installation"
+    ],
+    [
+      "Exit",
+      "Revoke OAuth and uninstall",
+      "Separate access and installation review"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "FIT",
+      "CandidateA",
+      "PDF requirement matched"
+    ],
+    [
+      "SCOPE",
+      "Consent",
+      "Actual declared access recorded"
+    ],
+    [
+      "PILOT",
+      "Mock PDFs",
+      "Correct readable merged output"
+    ],
+    [
+      "EXIT",
+      "Connection/install",
+      "Revocation and uninstall procedure"
+    ]
+  ]
+}

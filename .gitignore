@@ -1,0 +1,23 @@
+# Private course administration and build files
+.env
+.env.*
+!.env.example
+.claude/
+.codex/
+assessment/
+reference/
+course_application/
+qa/
+build/
+courseware/reference/
+courseware/assets/
+courseware/archive/
+*.pyc
+__pycache__/
+.DS_Store
+.venv/
+node_modules/
+courseware/FG-*.docx
+courseware/FG-*.pdf
+courseware/AP-*.docx
+courseware/AP-*.pdf

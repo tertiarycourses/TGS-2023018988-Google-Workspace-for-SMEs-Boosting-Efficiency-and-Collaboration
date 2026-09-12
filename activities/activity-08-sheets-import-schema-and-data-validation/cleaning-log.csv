@@ -1,0 +1,3 @@
+row_or_id,finding,source_decision,action
+E003,duplicate,same enquiry,keep one
+E013,invalid training fault,not part of12-row cohort,quarantine

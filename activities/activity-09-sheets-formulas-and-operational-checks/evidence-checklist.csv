@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"COUNT","Unique IDs","12","",""
+"WON","Stage rows","3","",""
+"REV","Won revenue","SGD 960","",""
+"RATE","Won / enquiries","25% with cohort label","",""

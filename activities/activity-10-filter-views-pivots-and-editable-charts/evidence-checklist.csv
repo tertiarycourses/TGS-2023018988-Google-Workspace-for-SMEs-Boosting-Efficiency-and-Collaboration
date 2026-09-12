@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"VIEW","Sales qualified","Partner view unaffected","",""
+"PIVOT","Stage counts","4,3,3,2","",""
+"TOTAL","Pivot count","12","",""
+"CHART","Column chart","Counts match source","",""

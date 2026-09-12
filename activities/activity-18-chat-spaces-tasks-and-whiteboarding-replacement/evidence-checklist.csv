@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"SPACE","Members","Only intended training identities","",""
+"ASSET","Brochure link","Opens for member","",""
+"TASK","Terms review","Owner and due date","",""
+"IDEA","Slides board","Three measurable visitor improvements","",""

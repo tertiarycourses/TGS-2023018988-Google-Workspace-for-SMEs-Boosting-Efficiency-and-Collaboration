@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"FUNNEL","Stages","1000/600/120/72","",""
+"MATH","Conversion","7.2% landing cohort","",""
+"IDEA1","Navigation","Product reach target>=70%","",""
+"IDEA2/3","Form/booking","Completion>=75%; availability test","",""

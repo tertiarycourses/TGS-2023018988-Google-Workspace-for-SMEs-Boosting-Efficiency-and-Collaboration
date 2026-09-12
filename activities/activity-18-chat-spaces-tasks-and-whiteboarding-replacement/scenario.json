@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 18,
+  "scenario": "A product launch needs a persistent discussion space and collaborative ideas. Legacy Jamboard instructions are unusable because the application ended 31December 2024.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Space membership",
+      "Internal training users",
+      "Review external audience policy"
+    ],
+    [
+      "Thread",
+      "Launch decision topic",
+      "Keep rationale attached to discussion"
+    ],
+    [
+      "Task fields",
+      "assignee, due date, status",
+      "Record ownership"
+    ],
+    [
+      "Whiteboard alternative",
+      "Slides brainstorm",
+      "Core exercise without third-party licence"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "SPACE",
+      "Members",
+      "Only intended training identities"
+    ],
+    [
+      "ASSET",
+      "Brochure link",
+      "Opens for member"
+    ],
+    [
+      "TASK",
+      "Terms review",
+      "Owner and due date"
+    ],
+    [
+      "IDEA",
+      "Slides board",
+      "Three measurable visitor improvements"
+    ]
+  ]
+}

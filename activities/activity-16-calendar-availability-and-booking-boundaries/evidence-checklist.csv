@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"TIME","10:00 +08:00","02:00 UTC same instant","",""
+"BUSY","10:30–11:00","Excluded where configured","",""
+"PRIVACY","Viewer","No private titles","",""
+"BOOK","Training slot","One booking creates expected event","",""

@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 25,
+  "scenario": "The SME wants update timestamps on a content register and considers automated email. A safe bound-sheet example exposes the simple-trigger boundary before evaluating authorised integration.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Event object",
+      "e.range",
+      "Exists when user edit fires trigger"
+    ],
+    [
+      "Guard",
+      "sheet name + column 3 + row>1",
+      "Ignore unrelated/header edits"
+    ],
+    [
+      "Write",
+      "column 5 new Date()",
+      "Only bound sheet for simple trigger"
+    ],
+    [
+      "Authorization",
+      "Simple trigger cannot send mail",
+      "Installable runs creator if used"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "EDIT",
+      "Row 2 columnC",
+      "Timestamp appears inE2"
+    ],
+    [
+      "HEADER",
+      "Row 1",
+      "No timestamp change"
+    ],
+    [
+      "OTHER",
+      "Different column",
+      "No timestamp change"
+    ],
+    [
+      "SCRIPT",
+      "Programmatic setValue",
+      "No implicit onEdit event"
+    ]
+  ]
+}

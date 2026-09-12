@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 4,
+  "scenario": "Product sheet P-101 has three competing copies. Sales sent an obsolete price. Create a single source of record with an explicit business publication lifecycle.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "asset_id",
+      "P-101",
+      "Stable business identifier"
+    ],
+    [
+      "status",
+      "Draft / Review / Approved / Published",
+      "Business register states"
+    ],
+    [
+      "source_url",
+      "Working Drive item",
+      "Do not substitute obsolete copy"
+    ],
+    [
+      "published_on",
+      "2026-09-13",
+      "Release evidence and next review"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "META",
+      "P-101",
+      "ID, owner, status, due date populated"
+    ],
+    [
+      "RELEASE",
+      "v 2",
+      "Price SGD 49 and approval note"
+    ],
+    [
+      "URL",
+      "Published copy",
+      "Current intended audience"
+    ],
+    [
+      "OLD",
+      "v 1 reference",
+      "No longer used in current index"
+    ]
+  ]
+}

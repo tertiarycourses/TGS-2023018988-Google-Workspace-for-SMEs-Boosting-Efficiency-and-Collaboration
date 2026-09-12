@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"ARCH","Mailbox","Account versus alias identified","",""
+"SCOPE","Delegate","Read/send/delete documented","",""
+"REPLY","Template","Correct terms and current links","",""
+"EXIT","Procedure","Delegation-removal owner named","",""

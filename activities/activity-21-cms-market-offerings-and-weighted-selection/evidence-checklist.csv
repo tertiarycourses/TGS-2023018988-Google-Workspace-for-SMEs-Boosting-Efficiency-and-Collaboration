@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"WEIGHTS","Matrix","30+25+25+20=100","",""
+"MATH","Sites score","3.65","",""
+"SOURCES","Offerings","Official links/date documented","",""
+"GATE","Must-have","Failure excludes unsuitable option","",""

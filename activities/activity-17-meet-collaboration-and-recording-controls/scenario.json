@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 17,
+  "scenario": "A product-review meeting needs decisions and action owners. Recording and transcripts are not assumed available or appropriate for every account or meeting.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Meeting identity",
+      "Calendar organiser",
+      "Authorised host controls"
+    ],
+    [
+      "Screen share",
+      "Approved browser tab",
+      "Avoid unrelated windows"
+    ],
+    [
+      "Recording",
+      "Edition/admin/role dependent",
+      "Do not assume free availability"
+    ],
+    [
+      "Action item",
+      "owner, due_on, status",
+      "Business decision record"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "INVITE",
+      "Participants",
+      "Intended training audience"
+    ],
+    [
+      "SHARE",
+      "Visible content",
+      "Approved product tab"
+    ],
+    [
+      "DECISION",
+      "Brochure",
+      "Approval and rationale recorded"
+    ],
+    [
+      "ACTION",
+      "Marketing lead",
+      "Due 2026-09-16; Open"
+    ]
+  ]
+}

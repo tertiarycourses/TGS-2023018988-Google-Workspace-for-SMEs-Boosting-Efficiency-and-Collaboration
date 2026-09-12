@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"MATCH","M01/M03","Enquiries label present","",""
+"NEGATIVE","M02/M04","Label absent","",""
+"RULE","Filter action","No forwarding or delete","",""
+"CLEANUP","Training rule","Removed after evidence","",""

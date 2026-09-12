@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 5,
+  "scenario": "The warehouse manager cannot find the approved delivery checklist. The search result contains a similarly named draft, and an edit removed an important dispatch check.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Search terms",
+      "delivery checklist",
+      "Match title then verify asset ID"
+    ],
+    [
+      "Type filter",
+      "Documents",
+      "Reduce irrelevant results"
+    ],
+    [
+      "Location",
+      "Approved Assets",
+      "Distinguish draft from release"
+    ],
+    [
+      "Version history",
+      "named checkpoint",
+      "Requires appropriate access"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "FIND",
+      "DELIVERY-01",
+      "Correct location and identifier"
+    ],
+    [
+      "HISTORY",
+      "Dispatch v 2",
+      "Approved checkpoint identified"
+    ],
+    [
+      "RECOVER",
+      "Current text",
+      "Address check restored"
+    ],
+    [
+      "ACCESS",
+      "Intended viewer",
+      "Known URL opens"
+    ]
+  ]
+}

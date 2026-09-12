@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"VIEWS","DOC01..04","24+18+12+6=60","",""
+"EDITORS","DOC01..04","3,2,1,1","",""
+"COLLAB",">=2 editors","2/4=50%","",""
+"SOURCE","Report","Synthetic explicitly stated","",""

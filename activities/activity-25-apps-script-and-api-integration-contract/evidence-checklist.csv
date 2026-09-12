@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"EDIT","Row 2 columnC","Timestamp appears inE2","",""
+"HEADER","Row 1","No timestamp change","",""
+"OTHER","Different column","No timestamp change","",""
+"SCRIPT","Programmatic setValue","No implicit onEdit event","",""

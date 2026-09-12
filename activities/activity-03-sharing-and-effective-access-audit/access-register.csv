@@ -1,0 +1,3 @@
+asset_id,direct_grant,group_grant,inherited_grant,general_access
+INV01,agency removed,Marketing includes agency,Marketing parent,Anyone with link
+P101,agency Commenter,Marketing,ApprovedAssets,Restricted

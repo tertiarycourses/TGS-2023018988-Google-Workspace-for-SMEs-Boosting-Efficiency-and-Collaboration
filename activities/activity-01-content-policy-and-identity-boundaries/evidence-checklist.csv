@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"POL-001","Policy approved","Named owner and monthly review","",""
+"ACL-001","Internal folder","Restricted; staff group only","",""
+"TEST-001","Agency account","Invoice access denied","",""
+"EXC-001","Agency product draft","Commenter; approval recorded","",""

@@ -1,0 +1,4 @@
+fact,approved_value,business_source
+delivery_charge,SGD5 belowSGD80,Approved mock policy
+return_window,14days,Approved mock policy
+free_delivery_threshold,SGD80,Approved mock policy

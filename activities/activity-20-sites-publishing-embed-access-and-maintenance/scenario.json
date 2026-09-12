@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 20,
+  "scenario": "The editor sees a brochure and form correctly, but a customer gets permission errors. Validate site publication, responder access and embedded file sharing as separate controls.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Editor URL",
+      "Sites editing surface",
+      "Not the visitor release URL"
+    ],
+    [
+      "Published URL",
+      "Published training site",
+      "Test current content"
+    ],
+    [
+      "Drive embed",
+      "File General access + People",
+      "Separate ACL"
+    ],
+    [
+      "Form embed",
+      "Publish + responders",
+      "Separate responder contract"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "SITE",
+      "Published URL",
+      "Current facts visible"
+    ],
+    [
+      "FILE",
+      "Embed",
+      "Viewer opens brochure"
+    ],
+    [
+      "FORM",
+      "Responder",
+      "Synthetic submission succeeds"
+    ],
+    [
+      "PRIVATE",
+      "Response sheet",
+      "Uninvited visitor denied"
+    ]
+  ]
+}

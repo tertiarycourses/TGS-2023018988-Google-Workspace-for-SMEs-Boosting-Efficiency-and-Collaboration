@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 8,
+  "scenario": "Enquiry data has duplicate IDs, numeric amounts stored as text and inconsistent stages. A marketing report is unreliable until the data contract is validated.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "enquiry_id",
+      "E001...E012",
+      "Required unique identifier"
+    ],
+    [
+      "amount_sgd",
+      "Numeric >=0",
+      "Currency formatting is not data cleaning"
+    ],
+    [
+      "stage",
+      "New / Qualified / Won / Lost",
+      "Dropdown rejects invalid input"
+    ],
+    [
+      "created_on",
+      "ISO date in source",
+      "Check interpreted date and locale"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "ROWS",
+      "Input",
+      "12 unique IDs after review"
+    ],
+    [
+      "STAGE",
+      "Validation",
+      "Invalid PendingRejected input blocked"
+    ],
+    [
+      "TYPE",
+      "Amounts",
+      "ISNUMBER true on report rows"
+    ],
+    [
+      "DUP",
+      "E003",
+      "Duplicate resolution documented"
+    ]
+  ]
+}

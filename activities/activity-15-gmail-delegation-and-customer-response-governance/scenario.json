@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 15,
+  "scenario": "Customer-support staff need access to a shared support mailbox. Sharing the password creates an identity and accountability problem; compare delegation with forwarding or alias use.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Delegate",
+      "Named Google account",
+      "Mailbox permissions, not password sharing"
+    ],
+    [
+      "Allowed",
+      "Read, send, delete email",
+      "Broad mailbox access"
+    ],
+    [
+      "Not allowed",
+      "Change owner password",
+      "Not a full account takeover"
+    ],
+    [
+      "Alias",
+      "Alternate email address",
+      "Not independent delegatable account"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "ARCH",
+      "Mailbox",
+      "Account versus alias identified"
+    ],
+    [
+      "SCOPE",
+      "Delegate",
+      "Read/send/delete documented"
+    ],
+    [
+      "REPLY",
+      "Template",
+      "Correct terms and current links"
+    ],
+    [
+      "EXIT",
+      "Procedure",
+      "Delegation-removal owner named"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"FIT","CandidateA","PDF requirement matched","",""
+"SCOPE","Consent","Actual declared access recorded","",""
+"PILOT","Mock PDFs","Correct readable merged output","",""
+"EXIT","Connection/install","Revocation and uninstall procedure","",""

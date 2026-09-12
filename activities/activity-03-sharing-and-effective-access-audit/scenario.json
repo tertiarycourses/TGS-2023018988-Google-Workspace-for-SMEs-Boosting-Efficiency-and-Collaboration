@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 3,
+  "scenario": "Finance deleted an agency user from one invoice file, but the agency still opens it through a group or public link. Diagnose all access paths rather than judging the direct People list alone.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "People with access",
+      "Account or group",
+      "Inspect direct and inherited paths"
+    ],
+    [
+      "General access",
+      "Restricted / audience",
+      "May grant access without individual entry"
+    ],
+    [
+      "Limited access",
+      "Folder-level control",
+      "Cannot manually apply to one file"
+    ],
+    [
+      "Manager / owner",
+      "Privileged principal",
+      "Cannot remove their underlying access"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "ACL-BEFORE",
+      "Agency",
+      "Opens through broader grant"
+    ],
+    [
+      "ACL-AFTER",
+      "Agency",
+      "Denied after full correction"
+    ],
+    [
+      "FIN-ALLOW",
+      "Finance tester",
+      "Can read expected file"
+    ],
+    [
+      "REVIEW",
+      "Owner",
+      "Signs effective-access register"
+    ]
+  ]
+}

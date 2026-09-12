@@ -1,0 +1,4 @@
+asset_id,title,contains_confidential_data,owner
+INV01,Supplier invoice,yes,Finance
+PROD01,Product sheet,no,Marketing
+ENQ01,Customer enquiries,yes,Sales

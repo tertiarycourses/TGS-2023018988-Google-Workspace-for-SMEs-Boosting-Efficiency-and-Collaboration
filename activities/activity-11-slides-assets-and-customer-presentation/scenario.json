@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 11,
+  "scenario": "Marketing needs a short customer presentation containing only approved product facts and a pipeline chart with a clear data period.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Slide title",
+      "Storage that fits your home",
+      "Specific customer-facing message"
+    ],
+    [
+      "Price field",
+      "SGD 29",
+      "Matches approved source"
+    ],
+    [
+      "Chart period",
+      "September 2026 synthetic cohort",
+      "Identifies sample context"
+    ],
+    [
+      "Source link",
+      "Controlled Google Sheet",
+      "Viewer access separate from edit"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "PRICE",
+      "Customer slide",
+      "SGD 29"
+    ],
+    [
+      "CHART",
+      "Stages",
+      "4/3/3/2 with synthetic label"
+    ],
+    [
+      "PRIVATE",
+      "Notes/comments",
+      "No internal cost values"
+    ],
+    [
+      "VIEW",
+      "PDF/viewer",
+      "Readable and accessible"
+    ]
+  ]
+}

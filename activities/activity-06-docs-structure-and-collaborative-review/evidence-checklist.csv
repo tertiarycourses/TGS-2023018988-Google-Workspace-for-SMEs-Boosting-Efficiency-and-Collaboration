@@ -1,0 +1,5 @@
+evidence_id,artifact,expected_result,observed_result,pass_or_fix
+"STRUCT","Outline","Two Heading 1 sections visible","",""
+"REVIEW","Suggestion","14-day proposal recorded","",""
+"DECISION","Accepted text","Verified terms reflected","",""
+"RELEASE","Named version","DP-01 v 2 approved","",""

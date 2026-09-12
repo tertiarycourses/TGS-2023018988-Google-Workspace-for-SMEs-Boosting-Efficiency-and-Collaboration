@@ -1,0 +1,50 @@
+{
+  "course_code": "TGS-2023018988",
+  "activity": 9,
+  "scenario": "Operations needs the enquiry pipeline value and conversion rate. Compute explicit numerators and denominators rather than relying on an unlabeled percentage.",
+  "data_classification": "Synthetic training data",
+  "contract": [
+    [
+      "Total enquiries",
+      "=COUNTA(A2:A13)",
+      "12 validated IDs"
+    ],
+    [
+      "Won enquiries",
+      "=COUNTIF(C2:C13,\"Won\")",
+      "3 Won records"
+    ],
+    [
+      "Won revenue",
+      "=SUMIF(C2:C13,\"Won\",D2:D13)",
+      "SGD 960"
+    ],
+    [
+      "Conversion",
+      "=IF(B2=0,\"No data\",B3/B2)",
+      "Summary B2 total12; B3 Won3; result25%"
+    ]
+  ],
+  "expected_evidence": [
+    [
+      "COUNT",
+      "Unique IDs",
+      "12"
+    ],
+    [
+      "WON",
+      "Stage rows",
+      "3"
+    ],
+    [
+      "REV",
+      "Won revenue",
+      "SGD 960"
+    ],
+    [
+      "RATE",
+      "Won / enquiries",
+      "25% with cohort label"
+    ]
+  ]
+}

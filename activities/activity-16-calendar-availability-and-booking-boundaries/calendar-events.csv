@@ -1,0 +1,4 @@
+event_id,title,start,end,visibility
+CAL01,Mock internal review,2026-09-14T10:30:00+08:00,2026-09-14T11:00:00+08:00,private
+CAL02,Mock product review,2026-09-15T14:00:00+08:00,2026-09-15T14:30:00+08:00,private
+CAL03,Mock availability check,2026-09-16T11:00:00+08:00,2026-09-16T11:30:00+08:00,private

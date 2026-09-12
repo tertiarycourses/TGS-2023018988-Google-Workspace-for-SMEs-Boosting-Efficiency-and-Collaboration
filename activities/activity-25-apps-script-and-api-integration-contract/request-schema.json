@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "endpoint": "https://www.googleapis.com/drive/v3/files",
+  "query": {
+    "q": "trashed=false and mimeType='application/vnd.google-apps.document'",
+    "fields": "files(id,name,modifiedTime),nextPageToken",
+    "pageSize": 100
+  },
+  "requirements": [
+    "OAuthclient",
+    "EnabledDriveAPI",
+    "Least-sufficientscope",
+    "Pagination",
+    "Noembeddedcredentials"
+  ]
+}
